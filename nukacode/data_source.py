@@ -37,7 +37,7 @@ def get_nuke_code_rougetrader():
 
     # 你可能需要稍微更改一下路径
     os.chdir(
-        '/root/go-cqhttp_linux_386/BOS-bot-v3/bos_bot_v3/plugins/nukacode/')
+        './')
     with open("codelog.json", 'w') as f:
         json.dump(codedict, f, indent=4, ensure_ascii=False)
 
